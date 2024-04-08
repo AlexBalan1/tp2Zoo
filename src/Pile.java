@@ -71,11 +71,15 @@ public class Pile {
     }
 
     public String toString(){
-        String laPile = nbElements + "gardiens " + "(" + capacite + "): ";
+        String laPile = nbElements + " gardiens " + "(capacité " + capacite + "): ";
 
         for(int i = 0; i < tableauGardiens.length; i++){
-
+            if(tableauGardiens[i] != null) {
+                laPile += tableauGardiens[i].toString();
+            }
         }
+
+        return  laPile;
 
 
     }

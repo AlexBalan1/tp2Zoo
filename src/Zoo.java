@@ -118,6 +118,9 @@ public class Zoo {
     }
 
     public void ajouterGardien(Gardien gardien) {
+
+
+
         for (int i = 0; i < lesEnclos.length; i++) {
 
             if (lesEnclos[i] != null && lesEnclos[i].getGardien() == null) {
@@ -143,8 +146,8 @@ public class Zoo {
             if (gardien.getCompetence() < 20) {
                 System.out.println("Le gardien ne peut pas être congédié.");
 
-                pileGardiens.empiler(gardien);
-                return null;
+               /* pileGardiens.empiler(gardien);
+                return null; */
             }
         } else {
             System.out.println("Il n'y a aucun gardien à retirer.");
@@ -167,7 +170,7 @@ public class Zoo {
             }
         }
 
-       return pileGardiens.toString() + "\n" + fileVisiteurs.toString() + "\n" + enclos;
+       return "Voici la pile des gardiens : " + "\n" +  pileGardiens.toString() + "\n" + "Et la file des Visiteurs: " + "\n" + fileVisiteurs.toString() + "\n" + enclos;
 
     }
 
