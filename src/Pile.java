@@ -9,7 +9,7 @@ public class Pile {
     // Constructeur
     public Pile() {
         tableauGardiens = new Gardien[TAILLE_INITIALE];
-        nbElements = 0;
+        nbElements = TAILLE_INITIALE;
         capacite = TAILLE_INITIALE;
     }
 
@@ -44,13 +44,15 @@ public class Pile {
         if (nbElements == capacite) {
 
             capacite *= RATIO_AGRANDISSEMENT;
+        }
             Gardien[] nouveauTableau = new Gardien[capacite];
 
-            for(int i = 0; i < nbElements; i++) {
+            for(int i = 0; i < tableauGardiens.length; i++) {
                 nouveauTableau[i] = tableauGardiens[i];
+                nbElements++;
             }
             tableauGardiens = nouveauTableau;
-        }
+
 
 
         tableauGardiens[nbElements++] = gardien;
@@ -66,5 +68,15 @@ public class Pile {
         Gardien gardienDepile = tableauGardiens[--nbElements];
         tableauGardiens[nbElements] = null;
         return gardienDepile;
+    }
+
+    public String toString(){
+        String laPile = nbElements + "gardiens " + "(" + capacite + "): ";
+
+        for(int i = 0; i < tableauGardiens.length; i++){
+
+        }
+
+
     }
 }

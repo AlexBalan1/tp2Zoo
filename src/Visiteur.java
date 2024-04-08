@@ -62,15 +62,15 @@ public class Visiteur {
     }
 
     public void entrerDansEnclo(Enclos enclo){
-        System.out.println(this.toString() + " entre  dans l'enclos " + "'" + enclo.getNom() + "'");
+        System.out.println("[" + nom + ", " + age + "]" + " entre  dans l'enclos " + "'" + enclo.getNom() + "'");
     }
 
     public void quitterZoo(){
-        System.out.println(this.toString() + " quitte le zoo.");
+        System.out.println("[" + nom + ", " + age + "]" + " quitte le zoo.");
     }
 
     public void quitterEnclo(Enclos enclo){
-        System.out.println(this.toString() + " quitte l'enclos " + "'" + enclo.getNom() + "'");
+        System.out.println("[" + nom + ", " + age + "]" + " quitte l'enclos " + "'" + enclo.getNom() + "'");
     }
 
     public String toString(){
