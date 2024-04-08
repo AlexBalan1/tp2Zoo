@@ -74,6 +74,28 @@ public class Main {
         // Simuler des actions dans le zoo
         while (!zoo.getFileVisiteurs().estVide()) {
             Visiteur visiteur = zoo.retirerVisiteur();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             Entree entree = new Entree(visiteur, zoo);
             System.out.println("L'entrée de " + visiteur + " coûte " + entree.getPrix() + "$");
             entree.afficherEnclos();
