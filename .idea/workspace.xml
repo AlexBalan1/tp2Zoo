@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0857f10-b81d-4437-8152-812ce708a91b" name="Changes" comment="jessaye de finir la logique du main">
+    <list default="true" id="c0857f10-b81d-4437-8152-812ce708a91b" name="Changes" comment="Je viens dajouter les commentaires JavaDoc dans toutes les classes.">
+      <change afterPath="$PROJECT_DIR$/src/TesterFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TesterPile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enclos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enclos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gardien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gardien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Noeud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Veterinaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veterinaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visiteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visiteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp2Zoo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tp2Zoo.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +21,7 @@
       <list>
         <option value="Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,14 +45,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.TesterFile.executor": "Run",
+    "JUnit.TesterFile.testArriveeVisiteur.executor": "Run",
+    "JUnit.TesterFile.testArriveeVisiteur_EnfilerVisiteur65AnsAvant.executor": "Run",
+    "JUnit.TesterPile.testAjouterGardien_AjoutGardienDansEnclosSansGardien.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Lenovo/OneDrive/OneDrive - Cégep André-Laurendeau/Documents/prog/java/tp2Zoo/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Lenovo/OneDrive/OneDrive - Cégep André-Laurendeau/Documents/prog/java/tp2Zoo/tests/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TesterPile.testAjouterGardien_AjoutGardienDansEnclosSansGardien">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tp2Zoo" />
@@ -65,8 +80,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesterFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2Zoo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesterFile" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesterFile.testArriveeVisiteur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2Zoo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesterFile" />
+      <option name="METHOD_NAME" value="testArriveeVisiteur" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesterFile.testArriveeVisiteur_EnfilerVisiteur65AnsAvant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2Zoo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesterFile" />
+      <option name="METHOD_NAME" value="testArriveeVisiteur_EnfilerVisiteur65AnsAvant" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesterPile.testAjouterGardien_AjoutGardienDansEnclosSansGardien" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2Zoo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesterPile" />
+      <option name="METHOD_NAME" value="testAjouterGardien_AjoutGardienDansEnclosSansGardien" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TesterPile.testAjouterGardien_AjoutGardienDansEnclosSansGardien" />
+        <item itemvalue="JUnit.TesterFile.testArriveeVisiteur" />
+        <item itemvalue="JUnit.TesterFile.testArriveeVisiteur_EnfilerVisiteur65AnsAvant" />
+        <item itemvalue="JUnit.TesterFile" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -112,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712594352391</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Je viens dajouter les commentaires JavaDoc dans toutes les classes.">
+      <option name="closed" value="true" />
+      <created>1712621940876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712621940876</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +197,18 @@
     <MESSAGE value="jessaye de debuguer le main" />
     <MESSAGE value="jessaye toujours de debuguer le main." />
     <MESSAGE value="jessaye de finir la logique du main" />
-    <option name="LAST_COMMIT_MESSAGE" value="jessaye de finir la logique du main" />
+    <MESSAGE value="Je viens dajouter les commentaires JavaDoc dans toutes les classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Je viens dajouter les commentaires JavaDoc dans toutes les classes." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tests/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
