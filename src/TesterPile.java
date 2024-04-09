@@ -4,8 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TesterPile {
     @Test
-    public void testAjouterGardien_AjoutGardienDansEnclosSansGardien() {
-        // Création d'un zoo
+    public void testAjouterGardien() {
+
         Zoo zoo = new Zoo("Mon Zoo");
 
         // Création de gardiens
@@ -17,7 +17,7 @@ class TesterPile {
         Enclos enclos2 = new Enclos("b", 5, null, null);
         Enclos enclos3 = new Enclos("c", 5, null, null);
 
-        // Ajout des enclos au zoo
+
         zoo.ajouterEnclos(new Enclos[]{enclos1, enclos2, enclos3});
 
 

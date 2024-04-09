@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0857f10-b81d-4437-8152-812ce708a91b" name="Changes" comment="Je viens dajouter les commentaires JavaDoc dans toutes les classes.">
-      <change afterPath="$PROJECT_DIR$/src/TesterFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TesterPile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp2Zoo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tp2Zoo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesterPile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesterPile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TesterPile.testAjouterGardien_AjoutGardienDansEnclosSansGardien">
+  <component name="RunManager" selected="JUnit.TesterFile.testArriveeVisiteur">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tp2Zoo" />
@@ -121,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TesterPile.testAjouterGardien_AjoutGardienDansEnclosSansGardien" />
         <item itemvalue="JUnit.TesterFile.testArriveeVisiteur" />
+        <item itemvalue="JUnit.TesterPile.testAjouterGardien_AjoutGardienDansEnclosSansGardien" />
         <item itemvalue="JUnit.TesterFile.testArriveeVisiteur_EnfilerVisiteur65AnsAvant" />
         <item itemvalue="JUnit.TesterFile" />
         <item itemvalue="Application.Main" />
@@ -178,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712621940876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Je viens dajouter les commentaires JavaDoc dans toutes les classes.">
+      <option name="closed" value="true" />
+      <created>1712625168297</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712625168298</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
