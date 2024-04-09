@@ -1,22 +1,20 @@
+/**
+ * La classe Entree représente un billet d'entrée pour un visiteur dans un zoo.
+ */
 public class Entree {
 
     private int nombreEnclos;
-
     private Enclos[] enclos;
-
     private double prix;
-
     private Visiteur visiteur;
     private Zoo zoo;
-
     private int lesEnclos;
 
-
     /**
-     * Constructeur de la classe Entree
-     * @param
+     * Constructeur de la classe Entree.
+     * @param visiteur Le visiteur pour lequel le billet d'entrée est créé.
+     * @param zoo Le zoo où le visiteur se rend.
      */
-
     public Entree(Visiteur visiteur, Zoo zoo) {
         this.visiteur = visiteur;
         this.zoo = zoo;
@@ -60,48 +58,57 @@ public class Entree {
     }
 
     /**
-     * accesseurs et mutateurs de la classe Entree
-     *
+     * Méthode pour obtenir le nombre d'enclos inclus dans le billet.
      */
-
     public int getNombreEnclos() {
         return nombreEnclos;
     }
 
+    /**
+     * Méthode pour définir le nombre d'enclos inclus dans le billet.
+     * @param nombreEnclos Le nombre d'enclos à définir.
+     */
     public void setNombreEnclos(int nombreEnclos) {
         this.nombreEnclos = nombreEnclos;
     }
 
+    /**
+     * Méthode pour obtenir le prix du billet.
+     */
     public double getPrix() {
         return prix;
     }
 
+    /**
+     * Méthode pour définir le prix du billet.
+     * @param prix Le prix à définir.
+     */
     public void setPrix(double prix) {
         this.prix = prix;
     }
 
+    /**
+     * Méthode pour obtenir les enclos inclus dans le billet.
+     */
     public Enclos[] getEnclos() {
         return enclos;
     }
 
+    /**
+     * Méthode pour définir les enclos inclus dans le billet.
+     * @param lesEnclos Les enclos à définir.
+     */
     public void setLesEnclos(int lesEnclos) {
         this.lesEnclos = lesEnclos;
     }
 
     /**
-     * methodes de la classe Entree
+     * Méthode pour afficher les enclos inclus dans le billet.
      */
-
-   public void afficherEnclos(){
-
-       System.out.print("Ce billet permettra de visiter les " + zoo.getNombreEnclos() + " enclos suivants: ");
-
-       for (Enclos i : enclos) {
-               System.out.print(i.getNom() + ", ");
-           }
-       }
-
-
-   }
-
-
+    public void afficherEnclos() {
+        System.out.print("Ce billet permettra de visiter les " + zoo.getNombreEnclos() + " enclos suivants: ");
+        for (Enclos i : enclos) {
+            System.out.print(i.getNom() + ", ");
+        }
+    }
+}

@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0857f10-b81d-4437-8152-812ce708a91b" name="Changes" comment="jessaye toujours de debuguer le main.">
+    <list default="true" id="c0857f10-b81d-4437-8152-812ce708a91b" name="Changes" comment="jessaye de finir la logique du main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enclos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enclos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gardien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gardien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Noeud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veterinaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veterinaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visiteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visiteur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712589537977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jessaye de finir la logique du main">
+      <option name="closed" value="true" />
+      <created>1712594352391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712594352391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +130,7 @@
     <MESSAGE value="debut du tp, rien a ete fait" />
     <MESSAGE value="jessaye de debuguer le main" />
     <MESSAGE value="jessaye toujours de debuguer le main." />
-    <option name="LAST_COMMIT_MESSAGE" value="jessaye toujours de debuguer le main." />
+    <MESSAGE value="jessaye de finir la logique du main" />
+    <option name="LAST_COMMIT_MESSAGE" value="jessaye de finir la logique du main" />
   </component>
 </project>
